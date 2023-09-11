@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(24,24,24);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+  margin: 40px;
+  font-size: 30px;
+  font-weight: bold; 
+}
+
+.move-icon{
+  height: 100px;
+}
+
+.move-button{
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 1000px;
+  background-color: rgb(24,24,24);
+  cursor: pointer;
+  margin-right: 30px;
+  margin-left: 40px;
+  padding: 10px;
+  transition: 0.15s;
+} 
+.move-button:hover{
+  opacity: 0.6;
+}
+.move-button:active{
+  opacity: 0.2;
+}
+
+.result-class{
+  margin-left: 40px ;
+  font-size: 40px;
+  font-weight: bold;
+}
+.moves-class{
+  margin-left: 40px ;
+  margin-bottom: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.score-class{
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.reset-button,
+.js-autoplay-button{
+  margin-left: 40px ;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
